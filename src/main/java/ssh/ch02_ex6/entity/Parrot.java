@@ -7,5 +7,5 @@ import lombok.Data;
 @Data
 @Component
 public class Parrot {
-	private String name;
+	private String name = "(무명 앵무새)";
 }
